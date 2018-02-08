@@ -14,7 +14,7 @@ f.close()
 install_requires = [
     'six',
     'python-dateutil',
-    'elasticsearch>=5.0.0,<6.0.0'
+    'elasticsearch-dd==5.3.0+dd.1'
 ]
 tests_require = [
     "mock",
@@ -33,7 +33,7 @@ setup(
     license="Apache License, Version 2.0",
     url = "https://github.com/elasticsearch/elasticsearch-dsl-py",
     long_description = long_description,
-    version = __versionstr__,
+    version = '5.4.0+dd.3',
     author = "Honza Král",
     author_email = "honza.kral@gmail.com",
     packages=find_packages(
