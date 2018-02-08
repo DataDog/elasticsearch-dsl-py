@@ -36,7 +36,7 @@ setup(
     license="Apache License, Version 2.0",
     url = "https://github.com/elasticsearch/elasticsearch-dsl-py",
     long_description = long_description,
-    version = "5.4.0+dd.0",
+    version = "5.4.0+dd.2",
     author = "Honza Král",
     author_email = "honza.kral@gmail.com",
     packages=find_packages(
